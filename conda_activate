@@ -1,0 +1,4 @@
+#!/bin/bash
+source /root/miniconda3/bin/activate pandas-dev
+python setup.py build_ext -i -j 8
+python -m pip install -e .
